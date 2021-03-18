@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name="customer")
 public class Customer {
 	
-	// fiedls to map customer table
+	// Fields to map customer table
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="id")
